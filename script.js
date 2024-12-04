@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
             entry.className = 'entry-item';
 
             entry.innerHTML = `
-                <div class="entry-profile">${userName.charAt(0).toUpperCase()}</div>
                 <div class="entry-text">
                     <h3>${userName}</h3>
                     <p><strong>Topic:</strong> ${topic}</p>
